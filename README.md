@@ -1,37 +1,37 @@
-This Romhack start from my port of the pokered-gbc to french to build upon.
+## Proofread Version with Accented É 
 
-If you want to play the game in english look at the english branch here : https://github.com/Engezerstorung/pokered-gbc-plus-fr/tree/English .
+**First off, a huge shoutout to the following national treasures!**
 
-If you want a base experience of the pokered-gbc romhack in french, go there : https://github.com/Engezerstorung/pokered-gbc-fr .
+* **Engezerstorung ([https://github.com/dear-github/dear-github/issues/150](https://github.com/dear-github/dear-github/issues/150))** - He allowed me to use his Pokémon ROM hack as a base for my own!
+* **FroggestSpirit, Drenn, and dannye** for their full-colored Pokémon Red patch (see [https://github.com/dannye/pokered-gbc](https://github.com/dannye/pokered-gbc))
+* **Everyone who has contributed to the pret disassembly and the tutorials in its wiki** (see [https://github.com/pret/pokered/](https://github.com/pret/pokered/))
+* **Makers of the Shockwave Crystal Clear Sprites**
 
-This romhack include some changes such as :
-- Tweaks to color palettes
-- Tweaks to Tilesets to allow more colors use and general visual improvements while keeping their vanilla design
-- Tweaks to some maps and blocksets for visual improvement
-- Added uniques party pokémons icons following the tutorial on pret/pokered/wiki
-- Added uniques sprites and palettes for Gym Leaders.
-- Replaced the generics pokemons sprites on maps by unique ones from Crystal CLear
-- Also the pokécenter Bench Guy is a real little boy now
-- Those last two points come with an overhaul to the sprite_OAM engine, as follow :
-- You can now create dedicated animation tables for specific sprites
-- You can define a per sprite XY pixel offset
-- You can do both those easily in a list at the bottom of data/sprites/facings.asm
+**The base Pokémon ROM hack by Engezerstorung includes several changes, such as:**
 
-QOL :
-- Runnings shoes
+* Tweaked color palettes for improved visuals.
+* Enhanced tilesets for more color usage and visual improvements while maintaining the vanilla design.
+* Adjusted maps and blocksets for better visuals.
+* Added unique party Pokémon icons following the tutorial on pret/pokered/wiki.
+* Introduced new sprites and palettes for Gym Leaders.
+* Replaced generic Pokémon sprites on maps with unique ones from Crystal Clear.
+* Transformed the PokéCenter Bench Guy into a real little boy (requires an overhaul to the sprite_OAM engine).
 
+**The sprite_OAM engine overhaul offers these features:**
 
+* Creation of dedicated animation tables for specific sprites.
+* Definition of per-sprite XY pixel offsets.
+* Easy implementation of both features through a list at the bottom of data/sprites/facings.asm.
 
-IMPORTANT
-To Import save across patched and unpatched versions : 
-- Save at the entrance of an interior (like a pokécenter) as of not having to move a block to go out
-- Import save in new version
-- Load save, press direction to exit the building
-- Profit
+**Quality of Life (QoL) Updates:**
 
-Made using those sources :
-- Full color patch for pokémon red by FroggestSpirit, Drenn, and dannye : https://github.com/dannye/pokered-gbc .
-- French disassembly : https://github.com/einstein95/pokered-fr
-- Shockwave Crystal Clear Sprites 
-- Pret Pokered wiki tutorials : https://github.com/pret/pokered/wiki/Tutorials
-- All steming from pret dissassembly : https://github.com/pret/pokered/
+* Running shoes are now available.
+
+**# IMPORTANT: Importing Saves Across Versions**
+
+To import saves between patched and unpatched versions:
+
+1. Save at the entrance of an interior location (e.g., PokéCenter) to avoid needing to move a block to exit.
+2. Import the save into the new version.
+3. Load the save and press a direction to exit the building.
+4. Enjoy!
