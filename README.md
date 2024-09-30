@@ -1,5 +1,3 @@
-## Proofread Version with Accented É 
-
 **First off, a huge shoutout to the following national treasures!**
 
 * **Engezerstorung ([https://github.com/dear-github/dear-github/issues/150](https://github.com/dear-github/dear-github/issues/150))** - He allowed me to use his Pokémon ROM hack as a base for my own!
