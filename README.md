@@ -1,4 +1,4 @@
-**First off, a huge shoutout to the following national treasures!**
+# First off, a huge shoutout to the following national treasures!**
 
 * **Engezerstorung ([https://github.com/dear-github/dear-github/issues/150](https://github.com/dear-github/dear-github/issues/150))** - He allowed me to use his Pokémon ROM hack as a base for my own!
 * **FroggestSpirit, Drenn, and dannye** for their full-colored Pokémon Red patch (see [https://github.com/dannye/pokered-gbc](https://github.com/dannye/pokered-gbc))
@@ -25,7 +25,7 @@
 
 * Running shoes are now available.
 
-**# IMPORTANT: Importing Saves Across Versions**
+# IMPORTANT: Importing Saves Across Versions
 
 To import saves between patched and unpatched versions:
 
